@@ -1,0 +1,20 @@
+[
+  {
+    "img": "https://i.ibb.co/Jp9MDn3/summer-camp.png",
+    "project_name": "Sporty Summer",
+    "details": "This is a sports academy website project designed for a summer camp school. The website aims to provide a platform for students to enroll and learn various sports activities. ",
+    "category": ["All", "MERN"]
+  },
+  {
+    "img": "path/to/image.jpg",
+    "project_name": "Example Project",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum viverra diam vel ullamcorper. Etiam non libero a lectus finibus malesuada.",
+    "category": ["All", "MERN"]
+  },
+  {
+    "img": "path/to/image.jpg",
+    "project_name": "Example Project",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum viverra diam vel ullamcorper. Etiam non libero a lectus finibus malesuada.",
+    "category": ["All", "Basic"]
+  }
+]

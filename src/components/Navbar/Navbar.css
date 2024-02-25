@@ -1,0 +1,4 @@
+.navbar ul li .active {
+    color: red;
+    /* Change the active link color to red */
+}
