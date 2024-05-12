@@ -6,6 +6,7 @@ import "react-tabs/style/react-tabs.css";
 import { FaBehance, FaGithub, FaLine, FaLink } from "react-icons/fa";
 import img1 from "../../assets/projects/moviemantra.png";
 import rong from "../../assets/projects/rong.png";
+import rabbyskitchen from "../../assets/projects/rabbyskitchen.png";
 import img2 from "../../assets/projects/clonetubeyt1.png";
 import img3 from "../../assets/projects/menu.png";
 import fastfood from "../../assets/projects/fastfood.jpg";
@@ -27,6 +28,80 @@ const Works = () => {
         </div>
         <div>
           {/* first project */}
+          <div
+            className="card lg:card-side bg-base-100 mt-20"
+            data-aos="zoom-in"
+            data-aos-anchor-placement="top-center"
+          >
+            <div className="relative max-w-full h-80 overflow-hidden rounded-lg">
+              <div className="h-max w-[600px] transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg">
+                <img
+                  src={rabbyskitchen}
+                  alt=""
+                  className="w-full object-cover object-top rounded-lg"
+                />
+              </div>
+            </div>
+            <div className="card-body lg:w-1/2 lg:ml-20">
+              <h2 className="card-title">
+                Rabby's Kitchen (Food Delivery Website)
+              </h2>
+              <p>
+                Introducing 'Rabby's Kitchen' – a responsive MERN-Food Delivery
+                website. Tailored for convenience frontend design ensures a
+                user-friendly food ordering experience, making it effortless for
+                users sign up / login, add food to cart, pay and order food.{" "}
+              </p>
+              <div className="lg:flex  gap-2 mb-7">
+                <button className=" btn btn-sm normal-case mr-2 mb-2">
+                  JavaScript
+                </button>
+                <button className=" btn btn-sm normal-case mr-2 mb-2">
+                  ReactJs
+                </button>
+                <button className=" btn btn-sm normal-case mr-2 mb-2">
+                  MongoDB
+                </button>
+                <button className=" btn btn-sm normal-case mr-2 mb-2">
+                  ExpressJs
+                </button>
+                <button className=" btn btn-sm normal-case mr-2 mb-2">
+                  NodeJs
+                </button>
+                <button className=" btn btn-sm normal-case mr-2 mb-2">
+                  Stripe
+                </button>
+              </div>
+              <div className="flex gap-2">
+                <button className=" btn normal-case">
+                  <a
+                    href="https://github.com/rabbyananto/FoodDeliveryApp-Client"
+                    target="_blank"
+                  >
+                    Client
+                  </a>
+                  <FaGithub></FaGithub>
+                </button>
+                <button className=" btn normal-case">
+                  <a
+                    href="https://github.com/rabbyananto/FoodDeliveryApp-server"
+                    target="_blank"
+                  >
+                    Server
+                  </a>
+                  <FaGithub></FaGithub>
+                </button>
+                <button className=" btn normal-case">
+                  <a href="https://rabbyskitchen.netlify.app" target="_blank">
+                    Live Site
+                  </a>
+                  <FaLink></FaLink>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* 2nd project */}
           <div
             className="card lg:card-side bg-base-100 mt-20"
             data-aos="zoom-in"
@@ -81,7 +156,7 @@ const Works = () => {
               </div>
             </div>
           </div>
-          {/* second project */}
+          {/* 3rd project */}
           <div
             className="card lg:card-side bg-base-100 mt-20"
             data-aos="zoom-in"
@@ -132,7 +207,7 @@ const Works = () => {
               </div>
             </div>
           </div>
-          {/* third project */}
+          {/* 4th project */}
           <div
             className="card lg:card-side bg-base-100 mt-20"
             data-aos="zoom-in"
@@ -184,7 +259,7 @@ const Works = () => {
             </div>
           </div>
 
-          {/* forth project */}
+          {/* 5th project */}
           <div
             className="card lg:card-side bg-base-100 mt-20"
             data-aos="zoom-in"
@@ -346,7 +421,7 @@ const Works = () => {
             </div>
           </div> */}
 
-          {/* fifth project */}
+          {/* 6th project */}
           <div
             className="card lg:card-side bg-base-100 mt-20"
             data-aos="zoom-in"
@@ -400,7 +475,7 @@ const Works = () => {
             </div>
           </div>
 
-          {/* sixth project */}
+          {/* 7th project */}
           <div
             className="card lg:card-side bg-base-100 mt-20"
             data-aos="zoom-in"

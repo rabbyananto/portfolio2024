@@ -25,7 +25,7 @@ const Skills = () => {
               data-aos-anchor-placement="top-center"
             >
               <h2 className=" card-title mb-5 text-lg justify-center  text-gray-700">
-                UI/UX Design
+                UI/UX Design & Backend Development
               </h2>
               <div className=" grid grid-cols-2 gap-10">
                 <div className=" flex flex-col gap-5">
@@ -90,38 +90,36 @@ const Skills = () => {
                     <div>
                       <p className=" text-xl font-medium loading-5">
                         {" "}
-                        UX research
-                      </p>
-                      <p className=" text-sm text-gray-500">Expertise</p>
-                    </div>
-                  </div>
-                  <div className="flex  gap-2">
-                    <BiBadgeCheck
-                      color="black"
-                      size={20}
-                      className="mt-1"
-                    ></BiBadgeCheck>
-                    <div>
-                      <p className=" text-xl font-medium loading-5">
-                        Figma, Adobe XD, Sketch
-                      </p>
-                      <p className=" text-sm text-gray-500">Comfortable</p>
-                    </div>
-                  </div>
-                  <div className="flex  gap-2">
-                    <BiBadgeCheck
-                      color="black"
-                      size={20}
-                      className="mt-1"
-                    ></BiBadgeCheck>
-                    <div>
-                      <p className=" text-xl font-medium loading-5">
                         Adobe creative suite
                       </p>
                       <p className=" text-sm text-gray-500">Comfortable</p>
                     </div>
                   </div>
-                  {/* <div className="flex  gap-2">
+                  <div className="flex  gap-2">
+                    <BiBadgeCheck
+                      color="black"
+                      size={20}
+                      className="mt-1"
+                    ></BiBadgeCheck>
+                    <div>
+                      <p className=" text-xl font-medium loading-5">
+                        Figma, Adobe XD
+                      </p>
+                      <p className=" text-sm text-gray-500">Comfortable</p>
+                    </div>
+                  </div>
+                  <div className="flex  gap-2">
+                    <BiBadgeCheck
+                      color="black"
+                      size={20}
+                      className="mt-1"
+                    ></BiBadgeCheck>
+                    <div>
+                      <p className=" text-xl font-medium loading-5">MongoDB</p>
+                      <p className=" text-sm text-gray-500">Comfortable</p>
+                    </div>
+                  </div>
+                  <div className="flex  gap-2">
                     <BiBadgeCheck
                       color="black"
                       size={20}
@@ -129,9 +127,9 @@ const Skills = () => {
                     ></BiBadgeCheck>
                     <div>
                       <p className=" text-xl font-medium loading-5">Stripe</p>
-                      <p className=" text-sm text-gray-500">Comfortable</p>
+                      <p className=" text-sm text-gray-500">Basic</p>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -167,7 +165,7 @@ const Skills = () => {
                     ></BiBadgeCheck>
                     <div>
                       <p className=" text-xl font-medium loading-5">Tailwind</p>
-                      <p className=" text-sm text-gray-500">Expertise</p>
+                      <p className=" text-sm text-gray-500">Comfortable</p>
                     </div>
                   </div>
                   <div className="flex  gap-2">
@@ -239,7 +237,7 @@ const Skills = () => {
                     ></BiBadgeCheck>
                     <div>
                       <p className=" text-xl font-medium loading-5">
-                        Styled-components
+                        ExpressJs
                       </p>
                       <p className=" text-sm text-gray-500">Basic</p>
                     </div>

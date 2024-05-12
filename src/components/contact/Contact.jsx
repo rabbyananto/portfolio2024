@@ -49,7 +49,7 @@ const Contact = () => {
                 Contact
               </p>
               <p className="text-[#35404E] py-4">
-                Submit the form below or shoot me an email -
+                Submit the form below or shoot me an email on -
                 mdabdullaalrabby@gmail.com
               </p>
             </div>
@@ -73,9 +73,9 @@ const Contact = () => {
               rows="6"
               placeholder="Message"
             ></textarea>
-            <div className=" mt-4">
+            <div className="mt-4 inline-flex">
               <input
-                className="btn btn-error normal-case"
+                className="btn btn-error normal-case text-white "
                 type="submit"
                 value="Send"
               />
@@ -89,18 +89,18 @@ const Contact = () => {
       <div className="max-w-screen-xl mx-auto pb-32">
         <div className=" grid lg:grid-cols-3 gap-y-5">
           <div className=" flex flex-col items-center gap-2">
-            <FaMobileAlt size={50} className=" text-red-500 mt-1"></FaMobileAlt>
-            <h1 className="text-red-600 font-bold font-serif">Call Us</h1>
+            <FaMobileAlt size={35} className=" text-red-500 mt-1"></FaMobileAlt>
+            <h1 className="text-red-600 font-bold ">Call me </h1>
             <p>+4915906414589</p>
           </div>
           <div className=" flex flex-col items-center gap-2">
-            <FaHome size={50} className=" text-red-500"></FaHome>
-            <h1 className="text-red-600 font-bold font-serif">Visit Office</h1>
-            <p>Duisburg, Germany</p>
+            <FaHome size={35} className=" text-red-500"></FaHome>
+            <h1 className="text-red-600 font-bold ">Current resident</h1>
+            <p>Duisburg, Germany (Open to relocate)</p>
           </div>
           <div className=" flex flex-col items-center gap-2">
-            <FaRegEnvelope size={50} className=" text-red-500"></FaRegEnvelope>
-            <h1 className="text-red-600 font-bold font-serif">Email Us</h1>
+            <FaRegEnvelope size={35} className=" text-red-500"></FaRegEnvelope>
+            <h1 className="text-red-600 font-bold ">Email me</h1>
             <p>mdabdullaalrabby@gmail.com</p>
           </div>
         </div>

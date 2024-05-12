@@ -8,6 +8,7 @@ import resume from "../../data/Md Abdulla al Rabby frontend developer.pdf";
 import Typical from "react-typical";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-scroll";
 
 const Home = () => {
   useEffect(() => {
@@ -29,12 +30,12 @@ const Home = () => {
           <h2 className="text-xl text-[#dc4970] font-mono font-bold">
             <Typical
               steps={[
-                "UI/UX Designer ",
-                1000,
                 "FrontEnd Developer ",
-                1000,
-                "IT support",
-                1000,
+                1200,
+                "React Developer ",
+                1200,
+                "UI / UX Designer ",
+                1200,
               ]}
               loop={Infinity}
             />
@@ -54,7 +55,10 @@ const Home = () => {
             </button>
 
             <button className="btn btn-error normal-case text-white">
-              My Works <HiArrowRight />
+              <Link to="works" smooth={true} duration={500}>
+                My Works
+              </Link>
+              <HiArrowRight />
             </button>
           </div>
         </div>
